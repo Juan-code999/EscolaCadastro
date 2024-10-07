@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Biblioteca._03_Entidades.DTOs
 {
-    internal class CreateAlunoDTO
+    public class CreateAlunoDTO
     {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public DateTime DataNascimento { get; set; }
     }
 }

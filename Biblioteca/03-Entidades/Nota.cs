@@ -9,8 +9,7 @@ namespace Biblioteca._03_Entidades
     public class Nota
     {
         public int Id { get; set; }
-        public Aluno Aluno { get; set; }
-        public Disciplina Disciplina { get; set; }
+        public int AlunoId { get; set; }
         public double Valor { get; set; }
     }
 }

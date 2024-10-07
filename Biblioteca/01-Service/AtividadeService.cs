@@ -1,23 +1,18 @@
 ﻿using Biblioteca._02_Repositorios;
-using Biblioteca._03_Entidades;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Biblioteca;
 
 namespace Biblioteca._01_Service
 {
-    public class AtividadesService
+    public class AtividadeService
     {
         public AtividadeRepository repository { get; set; }
 
-        public AtividadesService(string config)
+        public AtividadeService(string config)
         {
             repository = new AtividadeRepository(config);
         }
 
-        public void Adicionar(Atividades atividade)
+        public void Adicionar(Atividade atividade)
         {
             repository.Adicionar(atividade);
         }
@@ -26,18 +21,19 @@ namespace Biblioteca._01_Service
             repository.Remover(id);
         }
 
-        public List<Atividades> Listar()
+        public List<Atividade> Listar()
         {
             return repository.Listar();
         }
 
-        public Atividades BuscarAtividadePorId(int id)
+        public Atividade BuscarAtividadePorId(int id)
         {
             return repository.BuscarPorId(id);
         }
 
-        public void Editar(Atividades atividade)
+        public void Editar(Atividade atividade)
         {
             repository.Editar(atividade);
         }
     }
+}

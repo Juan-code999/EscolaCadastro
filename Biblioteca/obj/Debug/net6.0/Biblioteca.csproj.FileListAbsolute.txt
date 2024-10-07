@@ -1,5 +1,14 @@
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\bin\Debug\net6.0\Biblioteca.deps.json
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\bin\Debug\net6.0\Biblioteca.runtimeconfig.json
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\bin\Debug\net6.0\Biblioteca.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\bin\Debug\net6.0\Biblioteca.pdb
 C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\obj\Debug\net6.0\Biblioteca.csproj.AssemblyReference.cache
 C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\obj\Debug\net6.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\obj\Debug\net6.0\Biblioteca.AssemblyInfoInputs.cache
 C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\obj\Debug\net6.0\Biblioteca.AssemblyInfo.cs
 C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\obj\Debug\net6.0\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\obj\Debug\net6.0\Biblioteca.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\obj\Debug\net6.0\refint\Biblioteca.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\obj\Debug\net6.0\Biblioteca.pdb
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\obj\Debug\net6.0\Biblioteca.genruntimeconfig.cache
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\Biblioteca\obj\Debug\net6.0\ref\Biblioteca.dll

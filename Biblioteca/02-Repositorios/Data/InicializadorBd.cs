@@ -15,7 +15,7 @@ namespace Escola._02_Repositorios.Data
             using var connection = new SQLiteConnection("Data Source=Escola.db");
 
             string commandoSQL = @"   
-                 CREATE TABLE IF NOT EXISTS Aluno(
+                 CREATE TABLE IF NOT EXISTS Alunos(
                  Id INTEGER PRIMARY KEY AUTOINCREMENT,
                  Nome TEXT NOT NULL,
                  Idade INTEGER NOT NULL,
@@ -35,6 +35,30 @@ namespace Escola._02_Repositorios.Data
                  AlunoId INTEGER,
                  FOREIGN KEY (AlunoId) REFERENCES Alunos(Id)
                 );";
+
+            commandoSQL += @"   
+                 CREATE TABLE IF NOT EXISTS Livros(
+                 Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                 Titulo TEXT NOT NULL,
+                 Autor TEXT NOT NULL,
+                 AnoPublicacao INTEGER
+                );";
+
+            commandoSQL += @"   
+                 CREATE TABLE IF NOT EXISTS Notas(
+                 Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                 AlunoId TEXT NOT NULL,
+                 Valor REAL
+                );";
+
+            commandoSQL += @"   
+                 CREATE TABLE IF NOT EXISTS Professores(
+                 Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                 Nome TEXT NOT NULL,
+                 Disciplina TEXT NOT NULL,
+                 AnosDeExperiencia INTERGER
+                );";
+
 
             connection.Execute(commandoSQL);
         }

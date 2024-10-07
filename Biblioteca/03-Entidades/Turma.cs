@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Biblioteca._03_Entidades
 {
-    internal class Turma
+    public class Turma
     {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public int Ano { get; set; }
+        public List<Aluno> Alunos { get; set; }
+        public Professor ProfessorResponsavel { get; set; }
     }
 }

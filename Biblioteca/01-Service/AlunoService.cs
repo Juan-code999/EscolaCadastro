@@ -1,41 +1,37 @@
-﻿using Biblioteca._02_Repositorios;
+﻿using Biblioteca;
+using Biblioteca._02_Repositorios;
 using Biblioteca._03_Entidades;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using TrabalhoFinal._02_Repository;
 
-namespace Biblioteca._01_Service
+namespace TrabalhoFinal._01_Services;
+
+public class AlunoService
 {
-    public class AlunoService
+    public AlunoRepository repository { get; set; }
+    public AlunoService(string _config)
     {
-        public AlunoRepository repository { get; set; }
-        public AlunoService(string config)
-        {
-            repository = new AlunoRepository(config);
-        }
-        public void Adicionar(Aluno aluno)
-        {
-            repository.Adicionar(aluno);
-        }
+        repository = new AlunoRepository(_config);
+    }
+    public void Adicionar(Aluno aluno)
+    {
+        repository.Adicionar(aluno);
+    }
 
-        public void Remover(int id)
-        {
-            repository.Remover(BuscarTimePorId(id));
-        }
+    public void Remover(int id)
+    {
+        repository.Remover(id);
+    }
 
-        public List<Aluno> Listar()
-        {
-            return repository.Listar();
-        }
-        public Aluno BuscarTimePorId(int id)
-        {
-            return repository.BuscarPorId(id);
-        }
-        public void Editar(Aluno editAluno)
-        {
-            repository.Editar(editAluno);
-        }
+    public List<Aluno> Listar()
+    {
+        return repository.Listar();
+    }
+    public Aluno BuscarPorId(int id)
+    {
+        return repository.BuscarPorId(id);
+    }
+    public void Editar(Aluno editatividade)
+    {
+        repository.Editar(editatividade);
     }
 }

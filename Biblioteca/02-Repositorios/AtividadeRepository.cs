@@ -18,38 +18,38 @@ namespace Biblioteca._02_Repositorios
             ConnectionString = configuration;
         }
 
-        public void Adicionar(Atividades atividade)
+        public void Adicionar(Atividade atividade)
         {
             using var connection = new SQLiteConnection(ConnectionString);
-            connection.Insert<Atividades>(atividade);
+            connection.Insert<Atividade>(atividade);
         }
 
 
         public void Remover(int id)
         {
             using var connection = new SQLiteConnection(ConnectionString);
-            Atividades atividade = BuscarPorId(id);
-            connection.Delete<Atividades>(atividade);
+            Atividade atividade = BuscarPorId(id);
+            connection.Delete<Atividade>(atividade);
         }
 
 
-        public void Editar(Atividades atividade)
+        public void Editar(Atividade atividade)
         {
             using var connection = new SQLiteConnection(ConnectionString);
-            connection.Update<Atividades>(atividade);
+            connection.Update<Atividade>(atividade);
         }
 
-        public List<Atividades> Listar()
+        public List<Atividade> Listar()
         {
             using var connection = new SQLiteConnection(ConnectionString);
-            return connection.GetAll<Atividades>().ToList();
+            return connection.GetAll<Atividade>().ToList();
         }
 
 
-        public Atividades BuscarPorId(int id)
+        public Atividade BuscarPorId(int id)
         {
             using var connection = new SQLiteConnection(ConnectionString);
-            return connection.Get<Atividades>(id);
+            return connection.Get<Atividade>(id);
         }
     }
 }

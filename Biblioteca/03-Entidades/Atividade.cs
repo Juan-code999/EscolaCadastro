@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Biblioteca._03_Entidades
+namespace Biblioteca
 {
-    public class Atividades
+    public class Atividade
     {
         public int Id { get; set; }
         public string Nome { get; set; }
