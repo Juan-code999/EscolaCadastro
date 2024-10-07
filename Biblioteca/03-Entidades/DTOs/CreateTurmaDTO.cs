@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Biblioteca._03_Entidades.DTOs
 {
-    internal class CreateTurmaDTO
+    public class CreateTurmaDTO
     {
+        public string Nome { get; set; }
+        public DateTime DataInicio { get; set; }
     }
 }

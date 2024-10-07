@@ -8,5 +8,8 @@ namespace Biblioteca._03_Entidades.DTOs
 {
     internal class CreateBibliotecaDTO
     {
+        public string Nome { get; set; }
+        public DateTime DataFundacao { get; set; }
     }
+}
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Biblioteca._03_Entidades
 {
-    internal class Professor
+    public class Professor
     {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Disciplina { get; set; }
+        public int AnosDeExperiencia { get; set; }
     }
 }

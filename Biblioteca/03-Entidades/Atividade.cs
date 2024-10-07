@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Biblioteca._03_Entidades
 {
-    internal class Atividade
+    public class Atividades
     {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Descricao { get; set; }
+        public DateTime Data { get; set; }
     }
 }

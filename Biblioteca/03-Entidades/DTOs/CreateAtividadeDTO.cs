@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Biblioteca._03_Entidades.DTOs
 {
-    internal class CreateAtividadeDTO
+    public class CreateAtividadeDTO
     {
+        public string Nome { get; set; }
+        public DateTime Data { get; set; }
     }
 }

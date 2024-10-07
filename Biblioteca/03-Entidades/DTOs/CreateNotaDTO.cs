@@ -8,5 +8,8 @@ namespace Biblioteca._03_Entidades.DTOs
 {
     internal class CreateNotaDTO
     {
+        public double Valor { get; set; }
+        public DateTime DataEmissao { get; set; }
+        public string Descricao { get; set; }
     }
 }

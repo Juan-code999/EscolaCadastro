@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Biblioteca._03_Entidades
 {
-    internal class Nota
+    public class Nota
     {
+        public int Id { get; set; }
+        public Aluno Aluno { get; set; }
+        public Disciplina Disciplina { get; set; }
+        public double Valor { get; set; }
     }
 }
