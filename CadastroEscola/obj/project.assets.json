@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alunos\\Music\\EscolaCadastro\\CadastroEscola\\ApiEscola.csproj",
+      "projectUniqueName": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\CadastroEscola\\ApiEscola.csproj",
       "projectName": "ApiEscola",
-      "projectPath": "C:\\Users\\Alunos\\Music\\EscolaCadastro\\CadastroEscola\\ApiEscola.csproj",
+      "projectPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\CadastroEscola\\ApiEscola.csproj",
       "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alunos\\Music\\EscolaCadastro\\CadastroEscola\\obj\\",
+      "outputPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\CadastroEscola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config",
