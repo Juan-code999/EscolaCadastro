@@ -5,3 +5,35 @@ C:\Users\Alunos\Music\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.A
 C:\Users\Alunos\Music\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.csproj.CoreCompileInputs.cache
 C:\Users\Alunos\Music\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Alunos\Music\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\bin\Debug\net6.0\appsettings.json
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\bin\Debug\net6.0\ApiEscola.exe
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\bin\Debug\net6.0\ApiEscola.deps.json
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\bin\Debug\net6.0\ApiEscola.runtimeconfig.json
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\bin\Debug\net6.0\ApiEscola.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\bin\Debug\net6.0\ApiEscola.pdb
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.csproj.AssemblyReference.cache
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.AssemblyInfoInputs.cache
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.AssemblyInfo.cs
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\staticwebassets\msbuild.ApiEscola.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\staticwebassets\msbuild.build.ApiEscola.props
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ApiEscola.props
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ApiEscola.props
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\scopedcss\bundle\ApiEscola.styles.css
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.csproj.CopyComplete
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\refint\ApiEscola.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.pdb
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.genruntimeconfig.cache
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ref\ApiEscola.dll
