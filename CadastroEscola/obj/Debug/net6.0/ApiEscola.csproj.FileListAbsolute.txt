@@ -1,0 +1,7 @@
+C:\Users\Alunos\Music\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.csproj.AssemblyReference.cache
+C:\Users\Alunos\Music\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Music\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.AssemblyInfoInputs.cache
+C:\Users\Alunos\Music\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.AssemblyInfo.cs
+C:\Users\Alunos\Music\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Music\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Alunos\Music\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.MvcApplicationPartsAssemblyInfo.cache
