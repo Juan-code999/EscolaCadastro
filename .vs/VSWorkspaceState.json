@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Biblioteca",
-    "\\CadastroEscola"
+    "\\CadastroEscola",
+    "\\CadastroEscola\\Controllers"
   ],
+  "SelectedNode": "\\CadastroEscola\\Controllers\\AlunoController.cs",
   "PreviewInSolutionExplorer": false
 }

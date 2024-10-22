@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEscola", "ApiEscola.csproj", "{F341642F-C1E9-4FD2-9213-E72F47F599D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiEscola", "ApiEscola.csproj", "{F341642F-C1E9-4FD2-9213-E72F47F599D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "..\Biblioteca\Biblioteca.csproj", "{1133D9CB-9482-4377-8746-4D16EA506598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca", "..\Biblioteca\Biblioteca.csproj", "{1133D9CB-9482-4377-8746-4D16EA506598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "..\FrontEnd\FrontEnd.csproj", "{F7E48206-3439-4A9D-9986-8A0DDA53D2ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1133D9CB-9482-4377-8746-4D16EA506598}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1133D9CB-9482-4377-8746-4D16EA506598}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1133D9CB-9482-4377-8746-4D16EA506598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E48206-3439-4A9D-9986-8A0DDA53D2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E48206-3439-4A9D-9986-8A0DDA53D2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E48206-3439-4A9D-9986-8A0DDA53D2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E48206-3439-4A9D-9986-8A0DDA53D2ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
