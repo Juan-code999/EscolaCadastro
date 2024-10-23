@@ -31,8 +31,8 @@ namespace Escola._02_Repositorios.Data
                  Tipo TEXT NOT NULL,
                  DataEntrega TEXT NOT NULL,
                  NotaMaxima REAL NOT NULL,
-                 NotaObtida REAL,
-                 AlunoId INTEGER,
+                 NotaObtida REAL NOT NULL,
+                 AlunoId INTEGER NOT NULL,
                  FOREIGN KEY (AlunoId) REFERENCES Alunos(Id)
                 );";
 
@@ -52,7 +52,7 @@ namespace Escola._02_Repositorios.Data
                 );";
 
             commandoSQL += @"   
-                 CREATE TABLE IF NOT EXISTS Professores(
+                 CREATE TABLE IF NOT EXISTS Professors(
                  Id INTEGER PRIMARY KEY AUTOINCREMENT,
                  Nome TEXT NOT NULL,
                  Disciplina TEXT NOT NULL,
