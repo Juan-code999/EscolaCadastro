@@ -3,8 +3,10 @@
     "",
     "\\Biblioteca",
     "\\CadastroEscola",
-    "\\CadastroEscola\\Controllers"
+    "\\CadastroEscola\\Controllers",
+    "\\FrontEnd",
+    "\\FrontEnd\\Models"
   ],
-  "SelectedNode": "\\CadastroEscola\\Controllers\\AlunoController.cs",
+  "SelectedNode": "\\FrontEnd\\Models\\Nota.cs",
   "PreviewInSolutionExplorer": false
 }
