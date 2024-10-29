@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Biblioteca._01_Service;
+using Biblioteca._01_Service.Interfaces;
 using Biblioteca._03_Entidades;
 using Microsoft.AspNetCore.Mvc;
 using TrabalhoFinal._01_Services;
@@ -10,7 +11,7 @@ namespace API.Controllers;
 [Route("[controller]")]
 public class AlunoController : ControllerBase
 {
-    private readonly AlunoService _service;
+    private readonly IAlunoService _service;
     private readonly IMapper _mapper;
     public AlunoController(IConfiguration config, IMapper mapper)
     {

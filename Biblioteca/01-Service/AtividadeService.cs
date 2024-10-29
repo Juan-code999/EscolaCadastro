@@ -1,9 +1,10 @@
 ﻿using Biblioteca._02_Repositorios;
 using Biblioteca;
+using Biblioteca._01_Service.Interfaces;
 
 namespace Biblioteca._01_Service
 {
-    public class AtividadeService
+    public class AtividadeService : IAtividadeService
     {
         public AtividadeRepository repository { get; set; }
 

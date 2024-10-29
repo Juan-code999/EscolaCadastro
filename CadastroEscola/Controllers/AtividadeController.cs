@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
-using Biblioteca;
 using Biblioteca._01_Service;
+using Biblioteca._01_Service.Interfaces;
+using Biblioteca._03_Entidades;
 using Microsoft.AspNetCore.Mvc;
 using TrabalhoFinal._01_Services;
 
@@ -10,7 +11,7 @@ namespace API.Controllers;
 [Route("[controller]")]
 public class AtividadeController : ControllerBase
 {
-    private readonly AtividadeService _service;
+    private readonly IAtividadeService _service;
     private readonly IMapper _mapper;
     public AtividadeController(IConfiguration config, IMapper mapper)
     {

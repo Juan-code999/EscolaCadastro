@@ -1,13 +1,15 @@
 ﻿using Biblioteca;
+using Biblioteca._01_Service.Interfaces;
 using Biblioteca._02_Repositorios;
+using Biblioteca._02_Repositorios.Interfaces;
 using Biblioteca._03_Entidades;
 using TrabalhoFinal._02_Repository;
 
 namespace TrabalhoFinal._01_Services;
 
-public class AlunoService
+public class AlunoService : IAlunoService
 {
-    public AlunoRepository repository { get; set; }
+    public IAlunoRepository repository { get; set; }
     public AlunoService(string _config)
     {
         repository = new AlunoRepository(_config);

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Biblioteca._01_Service;
+using Biblioteca._01_Service.Interfaces;
 using Biblioteca._03_Entidades;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,7 +10,7 @@ namespace API.Controllers;
 [Route("[controller]")]
 public class LivroController : ControllerBase
 {
-    private readonly LivroService _service;
+    private readonly ILivroService _service;
     private readonly IMapper _mapper;
     public LivroController(IConfiguration config, IMapper mapper)
     {

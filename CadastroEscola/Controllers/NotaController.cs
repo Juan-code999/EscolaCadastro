@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Biblioteca._01_Service;
+using Biblioteca._01_Service.Interfaces;
 using Biblioteca._03_Entidades;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,7 +10,7 @@ namespace API.Controllers;
 [Route("[controller]")]
 public class NotaController : ControllerBase
 {
-    private readonly NotaService _service;
+    private readonly INotaService _service;
     private readonly IMapper _mapper;
     public NotaController(IConfiguration config, IMapper mapper)
     {

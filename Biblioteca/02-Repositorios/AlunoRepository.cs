@@ -1,10 +1,11 @@
-﻿using Biblioteca._03_Entidades;
+﻿using Biblioteca._02_Repositorios.Interfaces;
+using Biblioteca._03_Entidades;
 using Dapper.Contrib.Extensions;
 using System.Data.SQLite;
 
 namespace TrabalhoFinal._02_Repository;
 
-public class AlunoRepository
+public class AlunoRepository : IAlunoRepository
 {
     private readonly string ConnectionString;
     public AlunoRepository(string connectioString)

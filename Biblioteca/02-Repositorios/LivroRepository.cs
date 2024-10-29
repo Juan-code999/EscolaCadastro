@@ -1,4 +1,5 @@
-﻿using Biblioteca._03_Entidades;
+﻿using Biblioteca._02_Repositorios.Interfaces;
+using Biblioteca._03_Entidades;
 using Dapper.Contrib.Extensions;
 using System;
 using System.Collections.Generic;
@@ -9,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace Biblioteca._02_Repositorios
 {
-    public class LivroRepository
+    public class LivroRepository : ILivroRepository
     {
-        private readonly string ConnectionString;
+        private readonly string ConnectionString;   
 
         public LivroRepository(string configuration)
         {

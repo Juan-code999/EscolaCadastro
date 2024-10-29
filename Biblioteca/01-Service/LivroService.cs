@@ -1,4 +1,5 @@
-﻿using Biblioteca._02_Repositorios;
+﻿using Biblioteca._01_Service.Interfaces;
+using Biblioteca._02_Repositorios;
 using Biblioteca._03_Entidades;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca._01_Service
 {
-    public class LivroService
+    public class LivroService : ILivroService
     {
         public LivroRepository repository { get; set; }
 
