@@ -9,7 +9,7 @@ namespace TrabalhoFinal._01_Services;
 
 public class AlunoService : IAlunoService
 {
-    public IAlunoRepository repository { get; set; }
+    public IAlunoRepository repository;
     public AlunoService(string _config)
     {
         repository = new AlunoRepository(_config);
