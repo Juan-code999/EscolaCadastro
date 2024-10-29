@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Biblioteca;
 using Biblioteca._01_Service;
 using Biblioteca._01_Service.Interfaces;
 using Biblioteca._03_Entidades;

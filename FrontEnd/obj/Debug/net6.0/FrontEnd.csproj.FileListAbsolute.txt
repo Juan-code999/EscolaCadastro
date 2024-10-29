@@ -1,0 +1,15 @@
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\bin\Debug\net6.0\FrontEnd.exe
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\bin\Debug\net6.0\FrontEnd.deps.json
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\bin\Debug\net6.0\FrontEnd.runtimeconfig.json
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\bin\Debug\net6.0\FrontEnd.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\bin\Debug\net6.0\FrontEnd.pdb
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\FrontEnd.csproj.AssemblyReference.cache
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\FrontEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\FrontEnd.AssemblyInfoInputs.cache
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\FrontEnd.AssemblyInfo.cs
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\FrontEnd.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\FrontEnd.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\refint\FrontEnd.dll
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\FrontEnd.pdb
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\FrontEnd.genruntimeconfig.cache
+C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\ref\FrontEnd.dll
