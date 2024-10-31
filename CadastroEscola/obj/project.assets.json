@@ -1720,11 +1720,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\CadastroEscola\\ApiEscola.csproj",
+      "projectUniqueName": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\CadastroEscola\\ApiEscola.csproj",
       "projectName": "ApiEscola",
-      "projectPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\CadastroEscola\\ApiEscola.csproj",
+      "projectPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\CadastroEscola\\ApiEscola.csproj",
       "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\CadastroEscola\\obj\\",
+      "outputPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\CadastroEscola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1741,8 +1741,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\Biblioteca\\Biblioteca.csproj": {
-              "projectPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\Biblioteca\\Biblioteca.csproj"
+            "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\Biblioteca\\Biblioteca.csproj": {
+              "projectPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\Biblioteca\\Biblioteca.csproj"
             }
           }
         }

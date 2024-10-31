@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config",

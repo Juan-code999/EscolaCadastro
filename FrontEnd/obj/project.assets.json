@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\FrontEnd\\FrontEnd.csproj",
+      "projectUniqueName": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\FrontEnd\\FrontEnd.csproj",
       "projectName": "FrontEnd",
-      "projectPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\FrontEnd\\FrontEnd.csproj",
+      "projectPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\FrontEnd\\FrontEnd.csproj",
       "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\FrontEnd\\obj\\",
+      "outputPath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config",

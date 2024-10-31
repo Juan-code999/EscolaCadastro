@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xjwg+89yUHLE+qCfoIwNLDDQ5prdbxYnWxqifDkshLpg20wvq58P9W7Ye/RZbAZlL9w03jlkI2e0Sa40JGL6ag==",
+  "dgSpecHash": "/1FZu3H4vus8Kzr0RCqsnRKnFuk6dx5U5HPF4D4B14dIfcOOzZ+dYy8BhzzpN4ejLnmgo1RjjSsjNJSYFK5ojw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\Biblioteca\\Biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\Biblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alunos\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",

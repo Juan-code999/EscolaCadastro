@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ljuEzK6ZIQ+WAYBXMM+MxFfIKEAaVywiLXGevkeEqCwsqM0V0IbxMfqKJjD+DApfO+LW/AH3jLjptiQpzZYCRw==",
+  "dgSpecHash": "6bGtCpWlxYG8csnOP8TMRevM9+d1ClYISQJeiOCnQv9Rtorj6Ea+kbnROQKwHaPS5VHqyexrIn4jWgArD8ScHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\EscolaCadastro\\CadastroEscola\\ApiEscola.csproj",
+  "projectFilePath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\CadastroEscola\\ApiEscola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alunos\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Alunos\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
