@@ -13,10 +13,10 @@ public class AlunoController : ControllerBase
 {
     private readonly IAlunoService _service;
     private readonly IMapper _mapper;
-    public AlunoController(IConfiguration config, IMapper mapper)
+    public AlunoController(IConfiguration config, IMapper mapper, IAlunoService alunoService)
     {
         string _config = config.GetConnectionString("DefaultConnection");
-        _service = new AlunoService(_config);
+        _service = alunoService;
         _mapper = mapper;
     }
     [HttpPost("adicionar-Aluno")]

@@ -14,10 +14,10 @@ public class AtividadeController : ControllerBase
 {
     private readonly IAtividadeService _service;
     private readonly IMapper _mapper;
-    public AtividadeController(IConfiguration config, IMapper mapper)
+    public AtividadeController(IConfiguration config, IMapper mapper, IAtividadeService atividadeService)
     {
         string _config = config.GetConnectionString("DefaultConnection");
-        _service = new AtividadeService(_config);
+        _service = atividadeService;
         _mapper = mapper;
     }
     [HttpPost("adicionar-Atividade")]

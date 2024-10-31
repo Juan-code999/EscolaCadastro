@@ -1,5 +1,6 @@
 ﻿using Biblioteca._01_Service.Interfaces;
 using Biblioteca._02_Repositorios;
+using Biblioteca._02_Repositorios.Interfaces;
 using Biblioteca._03_Entidades;
 using System;
 using System.Collections.Generic;
@@ -11,11 +12,11 @@ namespace Biblioteca._01_Service
 {
     public class TurmaService : ITurmaService
     {
-        public TurmaRepository repository { get; set; }
+        private readonly ITurmaRepository repository;
 
-        public TurmaService(string config)
+        public TurmaService(ITurmaRepository turmaRepository)
         {
-            repository = new TurmaRepository(config);
+            repository = turmaRepository;
         }
 
         public void Adicionar(Turma turma)

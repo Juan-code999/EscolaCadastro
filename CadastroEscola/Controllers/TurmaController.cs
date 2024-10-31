@@ -14,10 +14,10 @@ public class TurmaController : ControllerBase
 {
     private readonly ITurmaService _service;
     private readonly IMapper _mapper;
-    public TurmaController(IConfiguration config, IMapper mapper)
+    public TurmaController(IConfiguration config, IMapper mapper, ITurmaService turmaService)
     {
         string _config = config.GetConnectionString("DefaultConnection");
-        _service = new TurmaService(_config);
+        _service = turmaService;
         _mapper = mapper;
     }
     [HttpPost("adicionar-Turma")]

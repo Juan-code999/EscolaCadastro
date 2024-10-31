@@ -12,10 +12,10 @@ public class NotaController : ControllerBase
 {
     private readonly INotaService _service;
     private readonly IMapper _mapper;
-    public NotaController(IConfiguration config, IMapper mapper)
+    public NotaController(IConfiguration config, IMapper mapper, INotaService notaService)
     {
         string _config = config.GetConnectionString("DefaultConnection");
-        _service = new NotaService(_config);
+        _service = notaService;
         _mapper = mapper;
     }
     [HttpPost("adicionar-Nota")]

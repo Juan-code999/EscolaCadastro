@@ -15,10 +15,10 @@ public class ProfesorController : ControllerBase
 {
     private readonly IProfessorService _service;
     private readonly IMapper _mapper;
-    public ProfesorController(IConfiguration config, IMapper mapper)
+    public ProfesorController(IConfiguration config, IMapper mapper, IProfessorService professorService)
     {
         string _config = config.GetConnectionString("DefaultConnection");
-        _service = new ProfessorService(_config);
+        _service = professorService;
         _mapper = mapper;
     }
     [HttpPost("adicionar-Professor")]

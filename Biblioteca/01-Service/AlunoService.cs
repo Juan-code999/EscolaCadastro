@@ -9,10 +9,10 @@ namespace TrabalhoFinal._01_Services;
 
 public class AlunoService : IAlunoService
 {
-    public IAlunoRepository repository;
-    public AlunoService(string _config)
+    private readonly IAlunoRepository repository;
+    public AlunoService(IAlunoRepository alunoRepository)
     {
-        repository = new AlunoRepository(_config);
+        repository = alunoRepository;
     }
     public void Adicionar(Aluno aluno)
     {

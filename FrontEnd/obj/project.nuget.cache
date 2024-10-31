@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "EEYth1stZQH7+YsT0Wgjb3E0QfF3Iic2ElTECexCi7LzxG50U18rBZCCAH7ILb6Hb495XI2YSOiH5vuQMWGvQA==",
+  "dgSpecHash": "shSszIevFH356OJeh8FqbPAsXjrOo3W4gUtr6aQkAG2kdkWIeXUVyHs+gfMVo1bu+tpVi6uWetCfgxAHjUoemw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alunos\\Pictures\\Camera Roll\\Trabalho Semestral\\FrontEnd\\FrontEnd.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Alunos\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Alunos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

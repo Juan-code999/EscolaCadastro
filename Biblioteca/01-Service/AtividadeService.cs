@@ -1,16 +1,17 @@
 ﻿using Biblioteca._02_Repositorios;
 using Biblioteca;
 using Biblioteca._01_Service.Interfaces;
+using Biblioteca._02_Repositorios.Interfaces;
 
 namespace Biblioteca._01_Service
 {
     public class AtividadeService : IAtividadeService
     {
-        public AtividadeRepository repository { get; set; }
+        private readonly IAtividadeRepository repository;
 
-        public AtividadeService(string config)
+        public AtividadeService(IAtividadeRepository atividadeRepository)
         {
-            repository = new AtividadeRepository(config);
+            repository = atividadeRepository;
         }
 
         public void Adicionar(Atividade atividade)

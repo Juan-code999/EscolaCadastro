@@ -1,12 +1,8 @@
 ﻿using Biblioteca._02_Repositorios.Interfaces;
 using Biblioteca._03_Entidades;
 using Dapper.Contrib.Extensions;
-using System;
-using System.Collections.Generic;
+using Microsoft.Extensions.Configuration;
 using System.Data.SQLite;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Biblioteca._02_Repositorios
 {
@@ -14,9 +10,9 @@ namespace Biblioteca._02_Repositorios
     {
         private readonly string ConnectionString;
 
-        public NotaRepository(string configuration)
+        public NotaRepository(IConfiguration config)
         {
-            ConnectionString = configuration;
+            ConnectionString = config.GetConnectionString("DefaultConnection");
         }
 
         public void Adicionar(Nota nota)

@@ -1,5 +1,6 @@
 ﻿using Biblioteca._01_Service.Interfaces;
 using Biblioteca._02_Repositorios;
+using Biblioteca._02_Repositorios.Interfaces;
 using Biblioteca._03_Entidades;
 using System;
 using System.Collections.Generic;
@@ -11,11 +12,11 @@ namespace Biblioteca._01_Service
 {
     public class LivroService : ILivroService
     {
-        public LivroRepository repository { get; set; }
+        private readonly ILivroRepository repository;
 
-        public LivroService(string config)
+        public LivroService(ILivroRepository livroRepository)
         {
-            repository = new LivroRepository(config);
+            repository = livroRepository;
         }
 
         public void Adicionar(Livro livro)

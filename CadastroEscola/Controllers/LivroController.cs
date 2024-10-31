@@ -12,10 +12,10 @@ public class LivroController : ControllerBase
 {
     private readonly ILivroService _service;
     private readonly IMapper _mapper;
-    public LivroController(IConfiguration config, IMapper mapper)
+    public LivroController(IConfiguration config, IMapper mapper, ILivroService livroService)
     {
         string _config = config.GetConnectionString("DefaultConnection");
-        _service = new LivroService(_config);
+        _service = livroService;
         _mapper = mapper;
     }
     [HttpPost("adicionar-Livro")]

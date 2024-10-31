@@ -1,5 +1,6 @@
 ﻿using Biblioteca._01_Service.Interfaces;
 using Biblioteca._02_Repositorios;
+using Biblioteca._02_Repositorios.Interfaces;
 using Biblioteca._03_Entidades;
 using System;
 using System.Collections.Generic;
@@ -11,11 +12,11 @@ namespace Biblioteca._01_Service
 {
     public class ProfessorService : IProfessorService
     {
-        public ProfessorRepository repository { get; set; }
+        private readonly IProfessoresRepository repository;
 
-        public ProfessorService(string config)
+        public ProfessorService(IProfessoresRepository professoresRepository)
         {
-            repository = new ProfessorRepository(config);
+            repository = professoresRepository;
         }
 
         public void Adicionar(Professor professor)

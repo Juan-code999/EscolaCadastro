@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca._02_Repositorios.Interfaces
 {
-    internal interface IAtividadeRepository
+    public interface IAtividadeRepository
     {
         void Adicionar(Atividade atividade);
         public void Remover(int id);

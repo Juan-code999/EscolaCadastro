@@ -1,5 +1,6 @@
 ﻿using Biblioteca._01_Service.Interfaces;
 using Biblioteca._02_Repositorios;
+using Biblioteca._02_Repositorios.Interfaces;
 using Biblioteca._03_Entidades;
 using System;
 using System.Collections.Generic;
@@ -11,11 +12,11 @@ namespace Biblioteca._01_Service
 {
     public class NotaService : INotaService
     {
-        public NotaRepository repository { get; set; }
+        private readonly INotaRepository repository;
 
-        public NotaService(string config)
+        public NotaService(INotaRepository notaRepository)
         {
-            repository = new NotaRepository(config);
+            repository = notaRepository;
         }
 
         public void Adicionar(Nota nota)
