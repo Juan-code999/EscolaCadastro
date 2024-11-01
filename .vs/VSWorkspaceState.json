@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Biblioteca",
-    "\\CadastroEscola",
-    "\\CadastroEscola\\Controllers",
-    "\\FrontEnd",
-    "\\FrontEnd\\Models"
+    ""
   ],
-  "SelectedNode": "\\FrontEnd\\Models\\Nota.cs",
+  "SelectedNode": "\\CadastroEscola.sln",
   "PreviewInSolutionExplorer": false
 }

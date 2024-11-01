@@ -68,3 +68,13 @@ C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net
 C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.pdb
 C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ApiEscola.genruntimeconfig.cache
 C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\CadastroEscola\obj\Debug\net6.0\ref\ApiEscola.dll
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\ApiEscola.csproj.AssemblyReference.cache
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\ApiEscola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\ApiEscola.AssemblyInfoInputs.cache
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\ApiEscola.AssemblyInfo.cs
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\ApiEscola.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\ApiEscola.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\ApiEscola.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\ApiEscola.dll
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\refint\ApiEscola.dll
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\ApiEscola.pdb
