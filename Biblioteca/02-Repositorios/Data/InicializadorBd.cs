@@ -23,7 +23,7 @@ namespace Escola._02_Repositorios.Data
                  Altura REAL NOT NULL
                 );";
 
-          
+
             commandoSQL += @"   
                  CREATE TABLE IF NOT EXISTS Atividades(
                  Id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -60,7 +60,7 @@ namespace Escola._02_Repositorios.Data
                 );";
 
             commandoSQL += @"   
-                 CREATE TABLE Usuarios (
+                 CREATE TABLE IF NOT EXISTS Usuarios (
                  Id VARCHAR(255) PRIMARY KEY,   
                  Nome VARCHAR(255) NOT NULL,     
                  Senha VARCHAR(255) NOT NULL,   

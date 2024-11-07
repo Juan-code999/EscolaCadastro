@@ -134,3 +134,4 @@ C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug
 C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\ApiEscola.csproj.CopyComplete
 C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\ApiEscola.genruntimeconfig.cache
 C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\obj\Debug\net6.0\ref\ApiEscola.dll
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\CadastroEscola\bin\Debug\net6.0\API.xml
