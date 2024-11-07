@@ -24,6 +24,7 @@ builder.Services.AddScoped<ILivroRepository, LivroRepository>();
 builder.Services.AddScoped<INotaRepository, NotaRepository>();
 builder.Services.AddScoped<IProfessoresRepository, ProfessorRepository>();
 builder.Services.AddScoped<ITurmaRepository, TurmaRepository>();
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
 builder.Services.AddScoped<IAlunoService, AlunoService>();
 builder.Services.AddScoped<IAtividadeService, AtividadeService>();
@@ -31,6 +32,7 @@ builder.Services.AddScoped<ILivroService, LivroService>();
 builder.Services.AddScoped<INotaService, NotaService>();
 builder.Services.AddScoped<IProfessorService, ProfessorService>();
 builder.Services.AddScoped<ITurmaService, TurmaService>();
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 
 var app = builder.Build();
 

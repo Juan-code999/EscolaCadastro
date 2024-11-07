@@ -51,9 +51,6 @@ namespace Biblioteca._02_Repositorios
             return connection.Get<Turma>(id);
         }
 
-        internal void Remover(Turma turma)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

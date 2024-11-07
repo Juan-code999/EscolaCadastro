@@ -59,6 +59,17 @@ namespace Escola._02_Repositorios.Data
                  AnosDeExperiencia INTERGER
                 );";
 
+            commandoSQL += @"   
+                 CREATE TABLE Usuarios (
+                 Id VARCHAR(255) PRIMARY KEY,   
+                 Nome VARCHAR(255) NOT NULL,     
+                 Senha VARCHAR(255) NOT NULL,   
+                 Username VARCHAR(255) NOT NULL, 
+                 Email VARCHAR(255) NOT NULL,    
+                 CONSTRAINT UQ_Username UNIQUE (Username), 
+                 CONSTRAINT UQ_Email UNIQUE (Email)  
+                 );";
+
 
             connection.Execute(commandoSQL);
         }

@@ -9,5 +9,6 @@ namespace Biblioteca._02_Repositorios.Interfaces
         void Editar(Turma turma);
         List<Turma> Listar();
         Turma BuscarPorId(int id);
+       
     }
 }

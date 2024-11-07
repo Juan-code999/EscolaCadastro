@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Biblioteca._02_Repositorios.Interfaces
 {
-    public interface ILivroRepository
+    public interface IUsuarioRepository
     {
-        void Adicionar(Livro livro);
+        void Adicionar(Usuario usuario);
         void Remover(int id);
-        void Editar(Livro livro);
-        List<Livro> Listar();
-        Livro BuscarPorId(int id);
-        
+        void Editar(Usuario usuario);
+        List<Usuario> Listar();
+        Usuario BuscarPorId(int id);
+  
     }
 }

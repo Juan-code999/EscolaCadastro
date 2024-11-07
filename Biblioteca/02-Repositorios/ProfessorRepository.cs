@@ -51,9 +51,6 @@ namespace Biblioteca._02_Repositorios
             return connection.Get<Professor>(id);
         }
 
-        internal void Remover(Professor professor)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

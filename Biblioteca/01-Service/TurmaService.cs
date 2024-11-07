@@ -26,7 +26,7 @@ namespace Biblioteca._01_Service
 
         public void Remover(int id)
         {
-            repository.Remover(BuscarPorId(id));
+            repository.Remover(id);
         }
 
         public List<Turma> Listar()
@@ -36,7 +36,7 @@ namespace Biblioteca._01_Service
 
         public Turma BuscarPorId(int id)
         {
-            return repository.BuscarPorId(id);
+          return repository.BuscarPorId(id);
         }
 
         public void Editar(Turma editTurma)

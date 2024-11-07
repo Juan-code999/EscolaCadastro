@@ -13,3 +13,22 @@ C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\re
 C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\FrontEnd.pdb
 C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\FrontEnd.genruntimeconfig.cache
 C:\Users\Alunos\Pictures\Camera Roll\EscolaCadastro\FrontEnd\obj\Debug\net6.0\ref\FrontEnd.dll
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\bin\Debug\net6.0\FrontEnd.exe
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\bin\Debug\net6.0\FrontEnd.deps.json
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\bin\Debug\net6.0\FrontEnd.runtimeconfig.json
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\bin\Debug\net6.0\FrontEnd.dll
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\bin\Debug\net6.0\FrontEnd.pdb
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\obj\Debug\net6.0\FrontEnd.csproj.AssemblyReference.cache
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\obj\Debug\net6.0\FrontEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\obj\Debug\net6.0\FrontEnd.AssemblyInfoInputs.cache
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\obj\Debug\net6.0\FrontEnd.AssemblyInfo.cs
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\obj\Debug\net6.0\FrontEnd.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\obj\Debug\net6.0\FrontEnd.csproj.CopyComplete
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\obj\Debug\net6.0\FrontEnd.dll
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\obj\Debug\net6.0\refint\FrontEnd.dll
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\obj\Debug\net6.0\FrontEnd.pdb
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\obj\Debug\net6.0\FrontEnd.genruntimeconfig.cache
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\FrontEnd\obj\Debug\net6.0\ref\FrontEnd.dll

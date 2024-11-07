@@ -26,7 +26,7 @@ namespace Biblioteca._01_Service
 
         public void Remover(int id)
         {
-            repository.Remover(BuscarPorId(id));
+            repository.Remover(id);
         }
 
         public List<Livro> Listar()

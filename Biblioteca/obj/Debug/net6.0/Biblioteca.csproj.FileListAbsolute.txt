@@ -20,3 +20,9 @@ C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\Biblioteca\obj\Debug\net
 C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\Biblioteca\obj\Debug\net6.0\Biblioteca.dll
 C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\Biblioteca\obj\Debug\net6.0\refint\Biblioteca.dll
 C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\Biblioteca\obj\Debug\net6.0\Biblioteca.pdb
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\Biblioteca\bin\Debug\net6.0\Biblioteca.deps.json
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\Biblioteca\bin\Debug\net6.0\Biblioteca.runtimeconfig.json
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\Biblioteca\bin\Debug\net6.0\Biblioteca.dll
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\Biblioteca\bin\Debug\net6.0\Biblioteca.pdb
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\Biblioteca\obj\Debug\net6.0\Biblioteca.genruntimeconfig.cache
+C:\Users\Alunos\Pictures\Camera Roll\Trabalho Semestral\Biblioteca\obj\Debug\net6.0\ref\Biblioteca.dll
