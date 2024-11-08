@@ -4,5 +4,48 @@
         <name>ApiEscola</name>
     </assembly>
     <members>
+        <member name="T:API.Controllers.AlunoController">
+            <summary>
+            Controlador para operações relacionadas aos alunos.
+            Fornece endpoints para adicionar, editar, listar e deletar alunos.
+            </summary>
+        </member>
+        <member name="M:API.Controllers.AlunoController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,AutoMapper.IMapper,Biblioteca._01_Service.Interfaces.IAlunoService)">
+            <summary>
+            Construtor do controlador de Aluno.
+            Inicializa os serviços necessários para manipulação dos dados de aluno.
+            </summary>
+            <param name="config">Objeto de configuração contendo a string de conexão com o banco de dados.</param>
+            <param name="mapper">Objeto AutoMapper para mapear entidades entre diferentes camadas.</param>
+            <param name="alunoService">Instância do serviço de aluno para realizar operações de CRUD.</param>
+        </member>
+        <member name="M:API.Controllers.AlunoController.AdicionarAluno(Biblioteca._03_Entidades.Aluno)">
+            <summary>
+            Adiciona um novo aluno ao sistema.
+            Este método recebe um objeto Aluno e o adiciona ao banco de dados.
+            </summary>
+            <param name="AlunoDTO">Objeto contendo os dados do aluno a ser adicionado.</param>
+        </member>
+        <member name="M:API.Controllers.AlunoController.ListarAluno">
+            <summary>
+            Lista todos os alunos cadastrados no sistema.
+            Este método retorna uma lista de objetos Aluno contendo todas as informações dos alunos.
+            </summary>
+            <returns>Uma lista de objetos Aluno.</returns>
+        </member>
+        <member name="M:API.Controllers.AlunoController.EditarAluno(Biblioteca._03_Entidades.Aluno)">
+            <summary>
+            Edita as informações de um aluno existente.
+            Este método recebe um objeto Aluno com os novos dados e os atualiza no banco de dados.
+            </summary>
+            <param name="p">Objeto Aluno contendo as novas informações para o aluno.</param>
+        </member>
+        <member name="M:API.Controllers.AlunoController.DeletarAluno(System.Int32)">
+            <summary>
+            Deleta um aluno do sistema.
+            Este método remove um aluno do banco de dados, baseado no seu identificador (ID).
+            </summary>
+            <param name="id">Identificador único do aluno a ser deletado.</param>
+        </member>
     </members>
 </doc>
