@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace FrontEnd.Models
 {
-    public class Professor
+    public class Usuario
     {
         public int Id { get; set; }
+
         public string Nome { get; set; }
-        public string Disciplina { get; set; }
-        public int AnosDeExperiencia { get; set; }
+
+        public string Senha { get; set; }
+
+        public string Username { get; set; }
+
+        public string Email { get; set; }
     }
 }

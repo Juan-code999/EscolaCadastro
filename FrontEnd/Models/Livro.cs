@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace FrontEnd.Models
 {
-    internal class Livro
+    public class Livro
     {
+        public int Id { get; set; }
+        public string Titulo { get; set; }
+        public string Autor { get; set; }
+        public int AnoPublicacao { get; set; }
     }
 }
