@@ -34,9 +34,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="ProfessorDTO">Objeto contendo os dados do professor a ser adicionado.</param>
         [HttpPost("adicionar-Professor")]
-        public void AdicionarProfessor(Professor ProfessorDTO)
+        public IActionResult AdicionarProfessor(Professor ProfessorDTO)
         {
-            _service.Adicionar(ProfessorDTO);
+            try
+            {
+                _service.Adicionar(ProfessorDTO);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Adicionar um Professor, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
 
         /// <summary>
@@ -47,7 +60,16 @@ namespace API.Controllers
         [HttpGet("listar-Professor")]
         public List<Professor> ListarProfessor()
         {
-            return _service.Listar();
+            try
+            {
+                return _service.Listar();
+            }
+            catch (Exception erro)
+            {
+
+                throw new Exception("Ocorreu um erro ao Listar um Professor, " +
+                $"o erro foi\n{erro.Message}");
+            }
         }
 
         /// <summary>
@@ -56,9 +78,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="p">Objeto Professor contendo as novas informações para o professor.</param>
         [HttpPut("editar-Professor")]
-        public void EditarProfessor(Professor p)
+        public IActionResult EditarProfessor(Professor p)
         {
-            _service.Editar(p);
+            try
+            {
+                _service.Editar(p);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Editar um Professor, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
 
         /// <summary>
@@ -67,9 +102,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="id">Identificador único do professor a ser deletado.</param>
         [HttpDelete("deletar-Professor")]
-        public void DeletarProfessor(int id)
+        public IActionResult DeletarProfessor(int id)
         {
-            _service.Remover(id);
+            try
+            {
+                _service.Remover(id);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Deletar um Professor, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
     }
 }

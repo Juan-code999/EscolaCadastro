@@ -33,9 +33,22 @@ namespace ApiEscola.Controllers
         /// </summary>
         /// <param name="usuario">Objeto contendo os dados do usuário a ser adicionado.</param>
         [HttpPost("adicionar-Usuario")]
-        public void AdicionarUsuario(Usuario usuario)
+        public IActionResult AdicionarUsuario(Usuario usuario)
         {
-            _service.Adicionar(usuario);
+            try
+            {
+                _service.Adicionar(usuario);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Adicionar um Usuario, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
 
         /// <summary>
@@ -46,7 +59,16 @@ namespace ApiEscola.Controllers
         [HttpGet("listar-Usuario")]
         public List<Usuario> ListarUsuario()
         {
-            return _service.Listar();
+            try
+            {
+                return _service.Listar();
+            }
+            catch (Exception erro)
+            {
+
+                throw new Exception("Ocorreu um erro ao Listar um Usuario, " +
+                $"o erro foi\n{erro.Message}");
+            }
         }
 
         /// <summary>
@@ -55,9 +77,22 @@ namespace ApiEscola.Controllers
         /// </summary>
         /// <param name="p">Objeto Usuario contendo as novas informações para o usuário.</param>
         [HttpPut("editar-Usuario")]
-        public void EditarUsuario(Usuario p)
+        public IActionResult EditarUsuario(Usuario p)
         {
-            _service.Editar(p);
+            try
+            {
+                _service.Editar(p);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Editar um Usuario, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
 
         /// <summary>
@@ -66,9 +101,22 @@ namespace ApiEscola.Controllers
         /// </summary>
         /// <param name="id">Identificador único do usuário a ser deletado.</param>
         [HttpDelete("deletar-Usuario")]
-        public void DeletarUsuario(int id)
+        public IActionResult DeletarUsuario(int id)
         {
-            _service.Remover(id);
+            try
+            {
+                _service.Remover(id);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Deletar um Usuario, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
     }
 }

@@ -34,9 +34,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="nota">Objeto contendo os dados da nota a ser adicionada.</param>
         [HttpPost("adicionar-Nota")]
-        public void AdicionarNota(Nota nota)
+        public IActionResult AdicionarNota(Nota nota)
         {
-            _service.Adicionar(nota);
+            try
+            {
+                _service.Adicionar(nota);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Adicionar uma Nota, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
 
         /// <summary>
@@ -47,7 +60,16 @@ namespace API.Controllers
         [HttpGet("listar-Nota")]
         public List<Nota> ListarNota()
         {
-            return _service.Listar();
+            try
+            {
+                return _service.Listar();
+            }
+            catch (Exception erro)
+            {
+
+                throw new Exception("Ocorreu um erro ao Listar uma Nota, " +
+                $"o erro foi\n{erro.Message}");
+            }
         }
 
         /// <summary>
@@ -56,9 +78,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="p">Objeto Nota contendo as novas informações para a nota.</param>
         [HttpPut("editar-Nota")]
-        public void EditarNota(Nota p)
+        public IActionResult EditarNota(Nota p)
         {
-            _service.Editar(p);
+            try
+            {
+                _service.Editar(p);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Editar uma Nota, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
 
         /// <summary>
@@ -67,9 +102,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="id">Identificador único da nota a ser deletada.</param>
         [HttpDelete("deletar-Nota")]
-        public void DeletarNota(int id)
+        public IActionResult DeletarNota(int id)
         {
-            _service.Remover(id);
+            try
+            {
+                _service.Remover(id);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao editar um Aluno, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
     }
 }

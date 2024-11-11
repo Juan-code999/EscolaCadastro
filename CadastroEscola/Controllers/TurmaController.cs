@@ -35,9 +35,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="Turma">Objeto contendo os dados da turma a ser adicionada.</param>
         [HttpPost("adicionar-Turma")]
-        public void AdicionarTurma(Turma Turma)
+        public IActionResult AdicionarTurma(Turma Turma)
         {
-            _service.Adicionar(Turma);
+            try
+            {
+                _service.Adicionar(Turma);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Adicionar um Turma, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
 
         /// <summary>
@@ -48,7 +61,16 @@ namespace API.Controllers
         [HttpGet("listar-Turma")]
         public List<Turma> ListarTurma()
         {
-            return _service.Listar();
+            try
+            {
+                return _service.Listar();
+            }
+            catch (Exception erro)
+            {
+
+                throw new Exception("Ocorreu um erro ao Listar uma Turma, " +
+                $"o erro foi\n{erro.Message}");
+            }
         }
 
         /// <summary>
@@ -57,9 +79,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="p">Objeto Turma contendo as novas informações para a turma.</param>
         [HttpPut("editar-Turma")]
-        public void EditarTurma(Turma p)
+        public IActionResult EditarTurma(Turma p)
         {
-            _service.Editar(p);
+            try
+            {
+                _service.Editar(p);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Editar um Turma, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
 
         /// <summary>
@@ -68,9 +103,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="id">Identificador único da turma a ser deletada.</param>
         [HttpDelete("deletar-Turma")]
-        public void DeletarTurma(int id)
+        public IActionResult DeletarTurma(int id)
         {
-            _service.Remover(id);
+            try
+            {
+                _service.Remover(id);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Deletar uma Turma, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
     }
 }

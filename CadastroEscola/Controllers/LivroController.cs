@@ -34,9 +34,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="livro">Objeto contendo os dados do livro a ser adicionado.</param>
         [HttpPost("adicionar-Livro")]
-        public void AdicionarLivro(Livro livro)
+        public IActionResult AdicionarLivro(Livro livro)
         {
-            _service.Adicionar(livro);
+            try
+            {
+                _service.Adicionar(livro);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Adicionar um Livro, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
 
         /// <summary>
@@ -47,7 +60,16 @@ namespace API.Controllers
         [HttpGet("listar-Livro")]
         public List<Livro> ListarLivro()
         {
-            return _service.Listar();
+            try
+            {
+                return _service.Listar();
+            }
+            catch (Exception erro)
+            {
+
+                throw new Exception("Ocorreu um erro ao Listar um Livro, " +
+                $"o erro foi\n{erro.Message}");
+            }
         }
 
         /// <summary>
@@ -56,9 +78,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="l">Objeto Livro contendo as novas informações para o livro.</param>
         [HttpPut("editar-Livro")]
-        public void EditarLivro(Livro l)
+        public IActionResult EditarLivro(Livro l)
         {
-            _service.Editar(l);
+            try
+            {
+                _service.Editar(l);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Editar um Livro, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
 
         /// <summary>
@@ -67,9 +102,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="id">Identificador único do livro a ser deletado.</param>
         [HttpDelete("deletar-Livro")]
-        public void DeletarLivro(int id)
+        public IActionResult DeletarLivro(int id)
         {
-            _service.Remover(id);
+            try
+            {
+                _service.Remover(id);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Remover um Livro, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+           
         }
     }
 }

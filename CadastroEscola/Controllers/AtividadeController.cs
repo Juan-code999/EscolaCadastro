@@ -35,9 +35,21 @@ namespace API.Controllers
         /// </summary>
         /// <param name="atividade">Objeto contendo os dados da atividade a ser adicionada.</param>
         [HttpPost("adicionar-Atividade")]
-        public void AdicionarAtividade(Atividade atividade)
+        public IActionResult AdicionarAtividade(Atividade atividade)
         {
-            _service.Adicionar(atividade);
+            try
+            {
+                _service.Adicionar(atividade);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Adicionar uma Atividade, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
         }
 
         /// <summary>
@@ -48,7 +60,17 @@ namespace API.Controllers
         [HttpGet("listar-Atividade")]
         public List<Atividade> ListarAtividade()
         {
-            return _service.Listar();
+            try
+            {
+                return _service.Listar();
+            }
+            catch (Exception erro)
+            {
+
+                throw new Exception("Ocorreu um erro ao Listar uma Atividade, " +
+                $"o erro foi\n{erro.Message}");
+            }
+            
         }
 
         /// <summary>
@@ -57,9 +79,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="p">Objeto Atividade contendo as novas informações para a atividade.</param>
         [HttpPut("editar-Atividade")]
-        public void EditarAtividade(Atividade p)
+        public IActionResult EditarAtividade(Atividade p)
         {
-            _service.Editar(p);
+            try
+            {
+                _service.Editar(p);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Editar uma Atividade, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
 
         /// <summary>
@@ -68,9 +103,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="id">Identificador único da atividade a ser deletada.</param>
         [HttpDelete("deletar-Atividade")]
-        public void DeletarAtividade(int id)
+        public IActionResult DeletarAtividade(int id)
         {
-            _service.Remover(id);
+            try
+            {
+                _service.Remover(id);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao Deletar uma Atividade, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+
         }
     }
 }

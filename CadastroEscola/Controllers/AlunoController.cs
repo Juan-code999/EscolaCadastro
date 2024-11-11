@@ -34,9 +34,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="AlunoDTO">Objeto contendo os dados do aluno a ser adicionado.</param>
         [HttpPost("adicionar-Aluno")]
-        public void AdicionarAluno(Aluno AlunoDTO)
+        public IActionResult AdicionarAluno(Aluno AlunoDTO)
         {
-            _service.Adicionar(AlunoDTO);
+            try
+            {
+                _service.Adicionar(AlunoDTO);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao editar um Aluno, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+        
         }
 
         /// <summary>
@@ -47,7 +60,17 @@ namespace API.Controllers
         [HttpGet("listar-Aluno")]
         public List<Aluno> ListarAluno()
         {
-            return _service.Listar();
+            try
+            {
+                return _service.Listar();
+            }
+            catch (Exception erro)
+            {
+
+                throw new Exception ("Ocorreu um erro ao editar um Aluno, " +
+                $"o erro foi\n{erro.Message}"); 
+            }
+            
         }
 
         /// <summary>
@@ -56,9 +79,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="p">Objeto Aluno contendo as novas informações para o aluno.</param>
         [HttpPut("editar-Aluno")]
-        public void EditarAluno(Aluno p)
+        public IActionResult EditarAluno(Aluno p)
         {
-            _service.Editar(p);
+            try
+            {
+                 _service.Editar(p);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao editar um Aluno, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+
         }
 
         /// <summary>
@@ -67,9 +103,22 @@ namespace API.Controllers
         /// </summary>
         /// <param name="id">Identificador único do aluno a ser deletado.</param>
         [HttpDelete("deletar-Aluno")]
-        public void DeletarAluno(int id)
+        public IActionResult DeletarAluno(int id)
         {
-            _service.Remover(id);
+            try
+            {
+                _service.Remover(id);
+                return Ok();
+
+            }
+            catch (Exception erro)
+            {
+
+                return BadRequest("Ocorreu um erro ao editar um Aluno, " +
+                $"o erro foi\n{erro.Message}");
+
+            }
+            
         }
     }
 }
