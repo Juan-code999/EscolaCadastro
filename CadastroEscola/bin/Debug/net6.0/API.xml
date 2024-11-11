@@ -4,12 +4,6 @@
         <name>ApiEscola</name>
     </assembly>
     <members>
-        <member name="T:API.Controllers.AlunoController">
-            <summary>
-            Controlador para operações relacionadas aos alunos.
-            Fornece endpoints para adicionar, editar, listar e deletar alunos.
-            </summary>
-        </member>
         <member name="M:API.Controllers.AlunoController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,AutoMapper.IMapper,Biblioteca._01_Service.Interfaces.IAlunoService)">
             <summary>
             Construtor do controlador de Aluno.
@@ -46,6 +40,228 @@
             Este método remove um aluno do banco de dados, baseado no seu identificador (ID).
             </summary>
             <param name="id">Identificador único do aluno a ser deletado.</param>
+        </member>
+        <member name="M:API.Controllers.AtividadeController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,AutoMapper.IMapper,Biblioteca._01_Service.Interfaces.IAtividadeService)">
+            <summary>
+            Construtor do controlador de Atividade.
+            Inicializa os serviços necessários para manipulação dos dados de atividade.
+            </summary>
+            <param name="config">Objeto de configuração contendo a string de conexão com o banco de dados.</param>
+            <param name="mapper">Objeto AutoMapper para mapear entidades entre diferentes camadas.</param>
+            <param name="atividadeService">Instância do serviço de atividade para realizar operações de CRUD.</param>
+        </member>
+        <member name="M:API.Controllers.AtividadeController.AdicionarAtividade(Biblioteca.Atividade)">
+            <summary>
+            Adiciona uma nova atividade ao sistema.
+            Este método recebe um objeto Atividade e o adiciona ao banco de dados.
+            </summary>
+            <param name="atividade">Objeto contendo os dados da atividade a ser adicionada.</param>
+        </member>
+        <member name="M:API.Controllers.AtividadeController.ListarAtividade">
+            <summary>
+            Lista todas as atividades cadastradas no sistema.
+            Este método retorna uma lista de objetos Atividade contendo todas as informações das atividades.
+            </summary>
+            <returns>Uma lista de objetos Atividade.</returns>
+        </member>
+        <member name="M:API.Controllers.AtividadeController.EditarAtividade(Biblioteca.Atividade)">
+            <summary>
+            Edita as informações de uma atividade existente.
+            Este método recebe um objeto Atividade com os novos dados e os atualiza no banco de dados.
+            </summary>
+            <param name="p">Objeto Atividade contendo as novas informações para a atividade.</param>
+        </member>
+        <member name="M:API.Controllers.AtividadeController.DeletarAtividade(System.Int32)">
+            <summary>
+            Deleta uma atividade do sistema.
+            Este método remove uma atividade do banco de dados, baseado no seu identificador (ID).
+            </summary>
+            <param name="id">Identificador único da atividade a ser deletada.</param>
+        </member>
+        <member name="M:API.Controllers.LivroController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,AutoMapper.IMapper,Biblioteca._01_Service.Interfaces.ILivroService)">
+            <summary>
+            Construtor do controlador de Livro.
+            Inicializa os serviços necessários para manipulação dos dados de livro.
+            </summary>
+            <param name="config">Objeto de configuração contendo a string de conexão com o banco de dados.</param>
+            <param name="mapper">Objeto AutoMapper para mapear entidades entre diferentes camadas.</param>
+            <param name="livroService">Instância do serviço de livro para realizar operações de CRUD.</param>
+        </member>
+        <member name="M:API.Controllers.LivroController.AdicionarLivro(Biblioteca._03_Entidades.Livro)">
+            <summary>
+            Adiciona um novo livro ao sistema.
+            Este método recebe um objeto Livro e o adiciona ao banco de dados.
+            </summary>
+            <param name="livro">Objeto contendo os dados do livro a ser adicionado.</param>
+        </member>
+        <member name="M:API.Controllers.LivroController.ListarLivro">
+            <summary>
+            Lista todos os livros cadastrados no sistema.
+            Este método retorna uma lista de objetos Livro contendo todas as informações dos livros.
+            </summary>
+            <returns>Uma lista de objetos Livro.</returns>
+        </member>
+        <member name="M:API.Controllers.LivroController.EditarLivro(Biblioteca._03_Entidades.Livro)">
+            <summary>
+            Edita as informações de um livro existente.
+            Este método recebe um objeto Livro com os novos dados e os atualiza no banco de dados.
+            </summary>
+            <param name="l">Objeto Livro contendo as novas informações para o livro.</param>
+        </member>
+        <member name="M:API.Controllers.LivroController.DeletarLivro(System.Int32)">
+            <summary>
+            Deleta um livro do sistema.
+            Este método remove um livro do banco de dados, baseado no seu identificador (ID).
+            </summary>
+            <param name="id">Identificador único do livro a ser deletado.</param>
+        </member>
+        <member name="M:API.Controllers.NotaController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,AutoMapper.IMapper,Biblioteca._01_Service.Interfaces.INotaService)">
+            <summary>
+            Construtor do controlador de Nota.
+            Inicializa os serviços necessários para manipulação dos dados de nota.
+            </summary>
+            <param name="config">Objeto de configuração contendo a string de conexão com o banco de dados.</param>
+            <param name="mapper">Objeto AutoMapper para mapear entidades entre diferentes camadas.</param>
+            <param name="notaService">Instância do serviço de nota para realizar operações de CRUD.</param>
+        </member>
+        <member name="M:API.Controllers.NotaController.AdicionarNota(Biblioteca._03_Entidades.Nota)">
+            <summary>
+            Adiciona uma nova nota ao sistema.
+            Este método recebe um objeto Nota e o adiciona ao banco de dados.
+            </summary>
+            <param name="nota">Objeto contendo os dados da nota a ser adicionada.</param>
+        </member>
+        <member name="M:API.Controllers.NotaController.ListarNota">
+            <summary>
+            Lista todas as notas cadastradas no sistema.
+            Este método retorna uma lista de objetos Nota contendo todas as informações das notas.
+            </summary>
+            <returns>Uma lista de objetos Nota.</returns>
+        </member>
+        <member name="M:API.Controllers.NotaController.EditarNota(Biblioteca._03_Entidades.Nota)">
+            <summary>
+            Edita as informações de uma nota existente.
+            Este método recebe um objeto Nota com os novos dados e os atualiza no banco de dados.
+            </summary>
+            <param name="p">Objeto Nota contendo as novas informações para a nota.</param>
+        </member>
+        <member name="M:API.Controllers.NotaController.DeletarNota(System.Int32)">
+            <summary>
+            Deleta uma nota do sistema.
+            Este método remove uma nota do banco de dados, baseado no seu identificador (ID).
+            </summary>
+            <param name="id">Identificador único da nota a ser deletada.</param>
+        </member>
+        <member name="M:API.Controllers.ProfesorController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,AutoMapper.IMapper,Biblioteca._01_Service.Interfaces.IProfessorService)">
+            <summary>
+            Construtor do controlador de Professor.
+            Inicializa os serviços necessários para manipulação dos dados de professor.
+            </summary>
+            <param name="config">Objeto de configuração contendo a string de conexão com o banco de dados.</param>
+            <param name="mapper">Objeto AutoMapper para mapear entidades entre diferentes camadas.</param>
+            <param name="professorService">Instância do serviço de professor para realizar operações de CRUD.</param>
+        </member>
+        <member name="M:API.Controllers.ProfesorController.AdicionarProfessor(Biblioteca._03_Entidades.Professor)">
+            <summary>
+            Adiciona um novo professor ao sistema.
+            Este método recebe um objeto Professor e o adiciona ao banco de dados.
+            </summary>
+            <param name="ProfessorDTO">Objeto contendo os dados do professor a ser adicionado.</param>
+        </member>
+        <member name="M:API.Controllers.ProfesorController.ListarProfessor">
+            <summary>
+            Lista todos os professores cadastrados no sistema.
+            Este método retorna uma lista de objetos Professor contendo todas as informações dos professores.
+            </summary>
+            <returns>Uma lista de objetos Professor.</returns>
+        </member>
+        <member name="M:API.Controllers.ProfesorController.EditarProfessor(Biblioteca._03_Entidades.Professor)">
+            <summary>
+            Edita as informações de um professor existente.
+            Este método recebe um objeto Professor com os novos dados e os atualiza no banco de dados.
+            </summary>
+            <param name="p">Objeto Professor contendo as novas informações para o professor.</param>
+        </member>
+        <member name="M:API.Controllers.ProfesorController.DeletarProfessor(System.Int32)">
+            <summary>
+            Deleta um professor do sistema.
+            Este método remove um professor do banco de dados, baseado no seu identificador (ID).
+            </summary>
+            <param name="id">Identificador único do professor a ser deletado.</param>
+        </member>
+        <member name="M:API.Controllers.TurmaController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,AutoMapper.IMapper,Biblioteca._01_Service.Interfaces.ITurmaService)">
+            <summary>
+            Construtor do controlador de Turma.
+            Inicializa os serviços necessários para manipulação dos dados de turma.
+            </summary>
+            <param name="config">Objeto de configuração contendo a string de conexão com o banco de dados.</param>
+            <param name="mapper">Objeto AutoMapper para mapear entidades entre diferentes camadas.</param>
+            <param name="turmaService">Instância do serviço de turma para realizar operações de CRUD.</param>
+        </member>
+        <member name="M:API.Controllers.TurmaController.AdicionarTurma(Biblioteca._03_Entidades.Turma)">
+            <summary>
+            Adiciona uma nova turma ao sistema.
+            Este método recebe um objeto Turma e o adiciona ao banco de dados.
+            </summary>
+            <param name="Turma">Objeto contendo os dados da turma a ser adicionada.</param>
+        </member>
+        <member name="M:API.Controllers.TurmaController.ListarTurma">
+            <summary>
+            Lista todas as turmas cadastradas no sistema.
+            Este método retorna uma lista de objetos Turma contendo todas as informações das turmas.
+            </summary>
+            <returns>Uma lista de objetos Turma.</returns>
+        </member>
+        <member name="M:API.Controllers.TurmaController.EditarTurma(Biblioteca._03_Entidades.Turma)">
+            <summary>
+            Edita as informações de uma turma existente.
+            Este método recebe um objeto Turma com os novos dados e os atualiza no banco de dados.
+            </summary>
+            <param name="p">Objeto Turma contendo as novas informações para a turma.</param>
+        </member>
+        <member name="M:API.Controllers.TurmaController.DeletarTurma(System.Int32)">
+            <summary>
+            Deleta uma turma do sistema.
+            Este método remove uma turma do banco de dados, baseado no seu identificador (ID).
+            </summary>
+            <param name="id">Identificador único da turma a ser deletada.</param>
+        </member>
+        <member name="M:ApiEscola.Controllers.UsuarioController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,AutoMapper.IMapper,Biblioteca._01_Service.Interfaces.IUsuarioService)">
+            <summary>
+            Construtor do controlador de Usuário.
+            Inicializa os serviços necessários para manipulação dos dados de usuário.
+            </summary>
+            <param name="config">Objeto de configuração contendo a string de conexão com o banco de dados.</param>
+            <param name="mapper">Objeto AutoMapper para mapear entidades entre diferentes camadas.</param>
+            <param name="usuarioService">Instância do serviço de usuário para realizar operações de CRUD.</param>
+        </member>
+        <member name="M:ApiEscola.Controllers.UsuarioController.AdicionarUsuario(Biblioteca._03_Entidades.Usuario)">
+            <summary>
+            Adiciona um novo usuário ao sistema.
+            Este método recebe um objeto Usuario e o adiciona ao banco de dados.
+            </summary>
+            <param name="usuario">Objeto contendo os dados do usuário a ser adicionado.</param>
+        </member>
+        <member name="M:ApiEscola.Controllers.UsuarioController.ListarUsuario">
+            <summary>
+            Lista todos os usuários cadastrados no sistema.
+            Este método retorna uma lista de objetos Usuario contendo todas as informações dos usuários.
+            </summary>
+            <returns>Uma lista de objetos Usuario.</returns>
+        </member>
+        <member name="M:ApiEscola.Controllers.UsuarioController.EditarUsuario(Biblioteca._03_Entidades.Usuario)">
+            <summary>
+            Edita as informações de um usuário existente.
+            Este método recebe um objeto Usuario com os novos dados e os atualiza no banco de dados.
+            </summary>
+            <param name="p">Objeto Usuario contendo as novas informações para o usuário.</param>
+        </member>
+        <member name="M:ApiEscola.Controllers.UsuarioController.DeletarUsuario(System.Int32)">
+            <summary>
+            Deleta um usuário do sistema.
+            Este método remove um usuário do banco de dados, baseado no seu identificador (ID).
+            </summary>
+            <param name="id">Identificador único do usuário a ser deletado.</param>
         </member>
     </members>
 </doc>
