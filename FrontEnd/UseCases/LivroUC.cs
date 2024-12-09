@@ -1,12 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Biblioteca._03_Entidades;
+using Biblioteca._03_Entidades.DTOs;
+using System.Net.Http.Json;
 
 namespace FrontEnd.UseCases
 {
-    internal class LivroUC
+    public class LivroUC
     {
+        private readonly HttpClient _client;
+
+        public LivroUC(HttpClient client)
+        {
+            _client = client;
+        }
+
+        public void CadastrarLivro(Livro livro)
+        {
+            HttpResponseMessage response = _client.PostAsJsonAsync("Livro/adicionar-livro", livro).Result;
+        }
+
+        public List<CreateLivroDTO> ListarLivros()
+        {
+            return _client.GetFromJsonAsync<List<CreateLivroDTO>>("Livro/listar-livros").Result;
+        }
     }
+
 }

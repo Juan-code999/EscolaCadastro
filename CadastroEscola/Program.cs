@@ -24,9 +24,9 @@ builder.Services.AddSwaggerGen(options =>
 
     options.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "Escola Federal",
+        Title = "Dados Escolares",
         Version = "v1",
-        Description = "Dados Escolares"
+        Description = "Dados Escolar"
     });
 });
 InicializadorBd.Inicializar();

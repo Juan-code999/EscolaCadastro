@@ -13,5 +13,6 @@ namespace Biblioteca._03_Entidades
         public int Idade { get; set; }
         public double Peso { get; set; }
         public double Altura { get; set; }
+        public DateTime DataNascimento { get; set; }
     }
 }

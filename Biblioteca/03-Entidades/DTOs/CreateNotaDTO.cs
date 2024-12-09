@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biblioteca._03_Entidades.DTOs
 {
-    internal class CreateNotaDTO
+    public class CreateNotaDTO
     {
         public double Valor { get; set; }
         public DateTime DataEmissao { get; set; }

@@ -13,5 +13,6 @@ namespace Biblioteca._03_Entidades
         public int Ano { get; set; }
         public List<Aluno> Alunos { get; set; }
         public Professor ProfessorResponsavel { get; set; }
+        public DateTime DataInicio { get; set; }
     }
 }

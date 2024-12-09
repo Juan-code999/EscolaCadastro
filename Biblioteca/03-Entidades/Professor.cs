@@ -12,5 +12,6 @@ namespace Biblioteca._03_Entidades
         public string Nome { get; set; }
         public string Disciplina { get; set; }
         public int AnosDeExperiencia { get; set; }
+        public string? Especialidade { get; set; }
     }
 }
