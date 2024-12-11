@@ -1,4 +1,5 @@
-﻿using FrontEnd.UseCases;
+﻿using Biblioteca._03_Entidades;
+using FrontEnd.UseCases;
 
 namespace FrontEnd;
 public class SistemaEscolar
@@ -8,6 +9,7 @@ public class SistemaEscolar
     private readonly AlunoUC _alunoUC;
     private readonly ProfessorUC _professorUC;
     private readonly TurmaUC _turmaUC;
+    private object _UsuarioUC;
 
     public SistemaEscolar(HttpClient cliente)
     {
@@ -38,7 +40,7 @@ public class SistemaEscolar
                 }
                 else if (resposta == 3)
                 {
-                    List<Usuario> usuarios = _usuarioUC.ListarUsuarios();
+                    List<Usuario> usuarios = _UsuarioUC.ListarUsuarios();
                     foreach (Usuario u in usuarios)
                     {
                         Console.WriteLine(u.ToString());
@@ -111,7 +113,7 @@ public class SistemaEscolar
         string username = Console.ReadLine();
         Console.WriteLine("Digite sua senha: ");
         string senha = Console.ReadLine();
-        UsuarioLoginDTO usuDTO = new UsuarioLoginDTO
+        CreateUsuarioDTO usuDTO = new CreateUsuarioDTO
         {
             Username = username,
             Senha = senha
@@ -140,7 +142,7 @@ public class SistemaEscolar
         else if (resposta == 2)
         {
             Aluno aluno = CriarAluno();
-            _alunoUC.CadastrarAluno(aluno);
+            _alunoUC.CadastrarAluno(Aluno);
             Console.WriteLine("Aluno cadastrado com sucesso");
         }
         else if (resposta == 3)
